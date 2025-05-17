@@ -11,7 +11,7 @@ sns.set(style='dark')
 
 # Sidebar logo dan menu
 with st.sidebar:
-    st.image("asset/education logo.png")
+    st.image("asset/logo.png")
     selected = st.radio("Pilih Halaman", ["Predict"])
 
 if selected == 'Predict':
