@@ -1,4 +1,21 @@
-# Menyelesaikan-Permasalahan-Institusi-Pendidikan
+# Proyek Akhir: Menyelesaikan-Permasalahan-Institusi-Pendidikan Jaya Jaya Institute
+# Id : anwarfaishal86
+
+## Business Understanding
+Jaya Jaya Institut merupakan salah satu institusi pendidikan perguruan yang telah berdiri sejak tahun 2000. Hingga saat ini ia telah mencetak banyak lulusan dengan reputasi yang sangat baik.
+
+## Permasalahan Bisnis
+Berikut adalah permasalahan bisnis yang dihadapi oleh Jaya jaya institute
+
+- Jumlah mahasiswa dropout yang tinggi (1.421 dari 4.424 mahasiswa).
+- Belum adanya sistem prediksi untuk deteksi dini mahasiswa yang berpotensi dropout.
+- Kebutuhan akan dashboard visual untuk membantu monitoring performa dan pengambilan keputusan berbasis data.
+
+## Cakupan Proyek
+- Melakukan analisis deskriptif terhadap data mahasiswa berdasarkan status akademik, pembayaran, beasiswa, dan jurusan.
+- Membangun model machine learning untuk memprediksi kemungkinan mahasiswa melakukan dropout.
+- Mengembangkan dashboard visual interaktif menggunakan Streamlit.
+- Memberikan rekomendasi strategis untuk menurunkan angka dropout.
 
 ## Persiapan
 
