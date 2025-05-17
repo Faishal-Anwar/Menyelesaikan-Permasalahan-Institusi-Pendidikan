@@ -8,7 +8,7 @@ st.set_page_config(page_title='Student Dropout Predictor', layout='wide')
 
 # Sidebar logo
 with st.sidebar:
-    st.image("asset/education logo.png")
+    st.image("asset/logo.png")
 
 # Title
 st.title("Student Dropout Prediction")
