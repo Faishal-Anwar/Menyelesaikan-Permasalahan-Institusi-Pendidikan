@@ -12,8 +12,8 @@ Ikuti langkah-langkah berikut untuk menjalankan aplikasi secara lokal:
 
 #### 1. Clone Repository
 ```bash
-https://github.com/Matahari-Masalalu/Menyelesaikan-Permasalahan-Human-Resources-Data-Scientist-Expert-Dicoding.git
-cd /Menyelesaikan-Permasalahan-Human-Resources-Data-Scientist-Expert-Dicoding
+https://github.com/Matahari-Masalalu/Menyelesaikan-Permasalahan-Institusi-Pendidikan.git
+cd /Menyelesaikan-Permasalahan-Institusi-Pendidikan
 ```
 
 #### 2. Buat Virtual Environment
