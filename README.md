@@ -121,36 +121,17 @@ Dashboard ini menyajikan ringkasan komprehensif mengenai demografi mahasiswa, la
   - **Keperawatan (Nursing)**
 
 ### Status Pembayaran Uang Kuliah dan Dropout (Count of Student by Tuition Payment Status and Dropout Status)
-
-    | Pembayaran Uang Kuliah | Dropout | Tidak Dropout |
-    |------------------------|---------|---------------|
-    | Ya (Tepat Waktu)       | Tinggi  | Sangat Tinggi |
-    | Tidak (Menunggak)      | Sedang  | Sangat Rendah |
-
 - Mahasiswa **yang menunggak pembayaran** cenderung lebih besar kemungkinannya untuk dropout.
 - Mahasiswa **yang membayar tepat waktu** mayoritas **tidak dropout**.
 
 ### Distribusi Beasiswa Berdasarkan Status Dropout (Scholarshp Distribution by Dropout Status)
-
-    | Penerima Beasiswa | Dropout | Tidak Dropout |
-    |-------------------|---------|---------------|
-    | Ya                | Rendah  | Sedang        |
-    | Tidak             | Tinggi  | Tinggi        |
-
 - Mahasiswa **tanpa beasiswa** memiliki tingkat dropout yang lebih tinggi.
 - Mahasiswa **dengan beasiswa** cenderung bertahan dalam studi.
 
 ### Dampak Status Hutang terhadap Dropout (Impact of Debt Status on Student Dropout)
-
-    | Status Hutang | Dropout | Tidak Dropout |
-    |---------------|---------|---------------|
-    | Ya            | Sedang  | Rendah        |
-    | Tidak         | Tinggi  | Sangat Tinggi |
-
 - Mahasiswa **tanpa hutang** cenderung bertahan dan menyelesaikan studi.
 - Mahasiswa **dengan hutang** memiliki kecenderungan dropout lebih tinggi.
 
-- 
 Komponen Dashboard
 - Rata-rata Nilai Masuk (Average of Admission Grade) : Rata-rata nilai masuk seluruh siswa adalah 126,7.
 - Rata-rata Usia Saat Diterima (Average Age at Enrollment) : Rata-rata usia siswa saat diterima adalah sekitar 23 tahun.
