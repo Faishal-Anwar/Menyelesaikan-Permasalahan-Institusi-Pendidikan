@@ -24,7 +24,7 @@ if selected == 'Predict':
     st.markdown("<h3 style='color:#2FF3E0;'>General Information</h3>", unsafe_allow_html=True)
     col1, col2, col3 = st.columns(3)
     with col1:
-        Age_at_enrollment = float(st.number_input(label='Age at Enrollment', value=19, min_value=15, max_value=100))
+        Age_at_enrollment = float(st.number_input(label='Age at Enrollment', value=19.0, min_value=15.0, max_value=100.0))
         data["Age_at_enrollment"] = [Age_at_enrollment]
     with col2:
         Gender = st.selectbox(label='Gender', options=dp.encoder_Gender.classes_, index=0)
@@ -57,14 +57,14 @@ if selected == 'Predict':
         Application_mode = st.selectbox(label='Application Mode', options=dp.encoder_Application_mode.classes_, index=7)
         data["Application_mode"] = [Application_mode]
     with col2:
-        Admission_grade = float(st.number_input(label='Admission Grade', value=142.5, min_value=0, max_value=200))
+        Admission_grade = float(st.number_input(label='Admission Grade', value=142.5, min_value=0.0, max_value=200.0))
         data["Admission_grade"] = [Admission_grade]
     col1, col2 = st.columns(2)
     with col1:
         Previous_qualification = st.selectbox(label='Previous Qualification', options=dp.encoder_Previous_qualification.classes_, index=8)
         data["Previous_qualification"] = [Previous_qualification]
     with col2:
-        Previous_qualification_grade = float(st.number_input(label='Previous Qualification Grade', value=160.0, min_value=0, max_value=200))
+        Previous_qualification_grade = float(st.number_input(label='Previous Qualification Grade', value=160.0, min_value=0.0, max_value=200.0))
         data["Previous_qualification_grade"] = [Previous_qualification_grade]
 
     # Additional Information Section
