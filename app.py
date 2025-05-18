@@ -7,10 +7,6 @@ from prediction import prediction
 # Set page config with title, icon, and wide layout
 st.set_page_config(page_title="Student Dropout Prediction", page_icon="🎓", layout="wide")
 
-# Sidebar logo only
-with st.sidebar:
-    st.image("asset/logo.png", width=150)
-
 st.title('Student Dropout Prediction')
 st.header('(Prototype)')
 st.markdown("<hr>", unsafe_allow_html=True)
