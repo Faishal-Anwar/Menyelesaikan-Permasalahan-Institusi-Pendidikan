@@ -135,16 +135,13 @@ Model Logistic Regression dipilih sebagai model final karena:
 - Lebih sederhana dan mudah diinterpretasikan
 - Cocok digunakan dalam sistem deteksi dini dropout
 
----
-
 ### Deployment dengan streamlit
 Langkah-langkah menggunakan sistem machine learning berbasis XGBoost adalah sebagai berikut.
-- Membuka link: https://m7e6p7ufh6ul4wt8sepkbe.streamlit.app/
-- Mengisi data yang dibutuhkan. Perlu diperhatikan bahwa pengguna harus menekan enter agar dapat menyimpan data numerik.
-- Hasil prediksi akan tampil di bagian bawah.
-![Cuplikan layar 2025-05-18 143048](https://github.com/user-attachments/assets/a133a454-b1b6-4e60-96a1-ef685840e406)
-
-
+1. Membuka link: https://m7e6p7ufh6ul4wt8sepkbe.streamlit.app/
+2. Mengisi data yang dibutuhkan. Perlu diperhatikan bahwa pengguna harus menekan enter agar dapat menyimpan data numerik.
+3. Hasil prediksi akan tampil di bagian bawah.
+![Cuplikan layar 2025-05-18 143347](https://github.com/user-attachments/assets/130b925a-91a5-4086-bbb3-a14f1e95cecf)
+![Cuplikan layar 2025-05-18 143331](https://github.com/user-attachments/assets/2d02e7ed-b8b9-4992-b671-0934813bd7c0)
 
 ## Kesimpulan
 Berdasarkan analisis dan pemodelan yang dilakukan, ditemukan beberapa insight penting:
@@ -161,6 +158,5 @@ Berikut beberapa rekomendasi yang dapat diambil oleh Jaya Jaya Institut:
 - Peningkatan Sistem Informasi Akademik: Integrasi sistem prediksi dropout ke dalam sistem akademik yang sudah ada agar dapat langsung memberikan alert.
 
 ## Referensi
-- 
 
 
