@@ -66,91 +66,28 @@ link dashboard : [link dashboard](https://public.tableau.com/views/Book3_1747260
 ![Cuplikan layar 2025-05-18 124806](https://github.com/user-attachments/assets/0cc381a2-6334-4ac2-82a8-75eb86a015ad)
 ![Cuplikan layar 2025-05-18 124816](https://github.com/user-attachments/assets/61ce5e0a-7d46-4d1b-a02e-1d9b7371ac61)
 
-## Ringkasan Mahasiswa & Analisis Dropout
-Dashboard ini menyajikan ringkasan komprehensif mengenai demografi mahasiswa, latar belakang akademik, serta analisis penyebab mahasiswa dropout berdasarkan data dari **4.424 mahasiswa**. Informasi mencakup distribusi jenis kelamin, status beasiswa, kewarganegaraan, status pernikahan, program studi, dan indikator utama terkait dropout.
+### Komponen Dashboard
+- Rata-rata Nilai Masuk (Average of Admission Grade) : Seluruh mahasiswa memiliki rata-rata nilai masuk sebesar 126,7.
 
+- Rata-rata Usia Saat Diterima (Average Age at Enrollment) : Mahasiswa diterima pada usia rata-rata sekitar 23,27 tahun.
 
-### Demografi Mahasiswa
+- Distribusi Jenis Kelamin (Gender) : Dari total 4.424 mahasiswa, sebanyak 64,83% adalah perempuan (sekitar 2.868 orang), dan 35,17% adalah laki-laki (sekitar 1.556 orang).
 
-### Rata-rata Nilai Masuk (Average of Admission Grade)
-- Rata-rata nilai masuk seluruh mahasiswa adalah **126,7**.
+- Penerima Beasiswa (Scholarship Holder) : Sebanyak 24,84% mahasiswa menerima beasiswa (sekitar 1.099 orang), dan 75,16% tidak menerima beasiswa (sekitar 3.325 orang).
 
-### Rata-rata Usia Saat Diterima (Average Age at Enrollment)
-- Rata-rata usia mahasiswa saat diterima adalah sekitar **23,27 tahun**.
+- Status Internasional (International) : Mahasiswa internasional berjumlah sekitar 110 orang (2,49%), sedangkan mahasiswa domestik sebanyak 4.314 orang (97,51%).
 
-### Distribusi Jenis Kelamin (Gender) dari Total: 4.424 mahasiswa
-- **Perempuan:** 64,83% → sekitar **2.868 mahasiswa**
-- **Laki-laki:** 35,17% → sekitar **1.556 mahasiswa**
+- Status Pernikahan (Marital Status) : Mayoritas mahasiswa berstatus lajang (3.919 orang), disusul menikah (379), cerai (91), memiliki pasangan tidak resmi (25), pisah resmi (6), dan duda/janda (4).
 
-### Penerima Beasiswa (Scholarship Holder)
-- **Ya (Penerima Beasiswa):** 24,84% → sekitar **1.099 mahasiswa**
-- **Tidak:** 75,16% → sekitar **3.325 mahasiswa**
+- Distribusi Program Studi (Course) : Program studi dengan jumlah mahasiswa terbanyak adalah Keperawatan (766), disusul Manajemen (380), Pelayanan Sosial (355), Kedokteran Hewan (337), dan Jurnalistik (331).
 
-### Status Internasional (International)
-- **Mahasiswa Internasional:** 2,49% → sekitar **110 mahasiswa**
-- **Mahasiswa Domestik:** 97,51% → sekitar **4.314 mahasiswa**
+- Status Mahasiswa (Status) : Sebanyak 3.003 mahasiswa (67,88%) tercatat tidak dropout, sementara 1.421 mahasiswa (32,12%) mengalami dropout.
 
-### Status Pernikahan (Marital Status)
-- **Lajang (Single):** 3.919 mahasiswa (Mayoritas)
-- **Menikah:** 379 mahasiswa
-- **Cerai:** 91 mahasiswa
-- **Pasangan Hidup Tidak Resmi:** 25 mahasiswa
-- **Pisah Resmi:** 6 mahasiswa
-- **Duda/Janda:** 4 mahasiswa
+- Distribusi Status Mahasiswa Berdasarkan Program Studi (Distribution of Student Status By Course) : Program studi dengan tingkat dropout tinggi meliputi Manajemen, Jurnalistik, Pelayanan Sosial, dan Kedokteran Hewan. Program studi Keperawatan menunjukkan tingkat retensi tertinggi.
 
-### Distribusi Program Studi (Course)
-- **Keperawatan (Nursing):** 766 mahasiswa
-- **Manajemen:** 380 mahasiswa
-- **Pelayanan Sosial (Social):** 355 mahasiswa
-- **Kedokteran Hewan (Veterinary):** 337 mahasiswa
-- **Jurnalistik (Journalism):** 331 mahasiswa
+- Pembayaran Uang Kuliah dan Dropout (Count of Student by Tuition Payment Status and Dropout Status) : Mahasiswa yang membayar tepat waktu mayoritas tidak dropout. Sebaliknya, mereka yang menunggak cenderung lebih besar kemungkinannya mengalami dropout.
 
-## Analisis Dropout
+- Pengaruh Beasiswa terhadap Dropout (Scholarshp Distribution by Dropout Status) : Mahasiswa tanpa beasiswa memiliki tingkat dropout yang lebih tinggi. Penerima beasiswa cenderung menyelesaikan studi.
 
-### Status Mahasiswa (Status)
-- **Tidak Dropout:** 3.003 mahasiswa → **67,88%**
-- **Dropout:** 1.421 mahasiswa → **32,12%**
-
-### Distribusi Status Mahasiswa Berdasarkan Program Studi (Distribution of Student Status By Course)
-- Program studi dengan **tingkat dropout tinggi** (batang oranye lebih dominan):
-  - **Manajemen**
-  - **Jurnalistik**
-  - **Pelayanan Sosial**
-  - **Kedokteran Hewan**
-- Program studi dengan **tingkat kelulusan tinggi** (mayoritas bertahan):
-  - **Keperawatan (Nursing)**
-
-### Status Pembayaran Uang Kuliah dan Dropout (Count of Student by Tuition Payment Status and Dropout Status)
-- Mahasiswa **yang menunggak pembayaran** cenderung lebih besar kemungkinannya untuk dropout.
-- Mahasiswa **yang membayar tepat waktu** mayoritas **tidak dropout**.
-
-### Distribusi Beasiswa Berdasarkan Status Dropout (Scholarshp Distribution by Dropout Status)
-- Mahasiswa **tanpa beasiswa** memiliki tingkat dropout yang lebih tinggi.
-- Mahasiswa **dengan beasiswa** cenderung bertahan dalam studi.
-
-### Dampak Status Hutang terhadap Dropout (Impact of Debt Status on Student Dropout)
-- Mahasiswa **tanpa hutang** cenderung bertahan dan menyelesaikan studi.
-- Mahasiswa **dengan hutang** memiliki kecenderungan dropout lebih tinggi.
-
-Komponen Dashboard
-- Rata-rata Nilai Masuk (Average of Admission Grade) : Rata-rata nilai masuk seluruh siswa adalah 126,7.
-- Rata-rata Usia Saat Diterima (Average Age at Enrollment) : Rata-rata usia siswa saat diterima adalah sekitar 23 tahun.
-- Jenis Kelamin (Gender) dari total 4.424 siswa, distribusinya adalah:
-  > Laki-laki: 35,17% → sekitar 1.556 siswa
-  > Perempuan: 64,83% → sekitar 2.868 siswa
-- Penerima Beasiswa (Scholarship Holder) Dari total 4.424 siswa, distribusinya adalah:
-  > Penerima (Scholarship Holder(Yes)) : 24,84% → sekitar 1.099 siswa
-  > Bukan Penerima (Scholarship Holder(No)) : 75,16% sekitar → 3.325 siswa
-- Status Internasional (International), berdasarkan status kewarganegaraan:
-  > Siswa Internasional (2,49%) → sekitar 110 siswa
-  > Siswa Domestik (97,51%) → sekitar 4.314 siswa
-- Status Pernikahan (Marital Status) : Mayoritas siswa berstatus lajang (Single) sebanyak 3.919 siswa.
-- Program Studi (Course) : Program studi dengan jumlah siswa terbanyak adalah Keperawatan (Nursing) dengan total 766 siswa.
-- Status : Status mahasiswa saat ini
-  > Mahasiswa Tidak Dropout: 3.003 → 67,88%
-  > Mahasiswa Dropout: 1.421 → 32,12%
-- Distribusi Status siswa berdasarkann Program Studi (Distribution of Student Status By Course) : Program studi dengan dropout cukup tinggi (ditunjukkan dengan batang oranye dominan)
-  > Manajemen, Jurnalistik, Sosial, Veteriner
-  > Keperawatan (Nursing): Mayoritas tidak dropout (jumlah terbesar mahasiswa bertahan)
-- Count of Student by Tu
+- Pengaruh Hutang terhadap Dropout (Impact of Debt Status on Student Dropout) : Mahasiswa tanpa hutang memiliki tingkat kelulusan tinggi. Sebaliknya, mahasiswa dengan hutang lebih rentan mengalami dropout.
 
