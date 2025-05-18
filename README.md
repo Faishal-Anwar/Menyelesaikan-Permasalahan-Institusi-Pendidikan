@@ -91,3 +91,74 @@ link dashboard : [link dashboard](https://public.tableau.com/views/Book3_1747260
 
 - Pengaruh Hutang terhadap Dropout (Impact of Debt Status on Student Dropout) : Mahasiswa tanpa hutang memiliki tingkat kelulusan tinggi. Sebaliknya, mahasiswa dengan hutang lebih rentan mengalami dropout.
 
+## Sistem Machine Learning
+
+Untuk membangun sistem prediksi mahasiswa dropout di Jaya Jaya Institute, dilakukan eksperimen dengan beberapa algoritma machine learning. Tujuannya adalah memilih model dengan performa terbaik, khususnya dalam hal recall — agar mampu mendeteksi sebanyak mungkin mahasiswa yang berisiko dropout.
+
+### Langkah-Langkah Pemodelan
+
+1. **Pra-pemrosesan Data**
+   - Penanganan missing value
+   - Encoding fitur kategorikal
+   - Standardisasi fitur numerik
+
+2. **Penerapan PCA (Principal Component Analysis)**
+   - Digunakan untuk mereduksi dimensi dan meningkatkan efisiensi pemodelan.
+
+3. **Pelatihan Model**
+   - Algoritma yang digunakan:
+     - `Logistic Regression`
+     - `Decision Tree Classifier`
+     - `K-Nearest Neighbors (KNN)`
+
+4. **Evaluasi**
+   - Metrik utama: **Recall**
+   - Penggunaan K-Fold Cross Validation
+   - Perbandingan antara performa pada data pelatihan dan data pengujian
+
+### Hasil Eksperimen Model
+
+| Model                  | Train - Recall Mean | Train - Recall Std | Train - Recall All                                | Test - Recall | Difference   |
+|------------------------|---------------------|---------------------|---------------------------------------------------|---------------|--------------|
+| Logistic Regression     | 0.6641              | 0.0445              | [0.674, 0.6608, 0.6535, 0.5965, 0.7357]            | **0.8220**     | **-0.1579**   |
+| Decision Tree Classifier| 0.6553              | 0.0209              | [0.6696, 0.6608, 0.6623, 0.614, 0.6696]            | 0.6644        | -0.0091      |
+| K-Nearest Neighbors     | 0.4424              | 0.0294              | [0.4317, 0.4185, 0.4825, 0.4079, 0.4714]           | 0.7112        | -0.2688      |
+
+> **Catatan:** Nilai *difference* dihitung dari selisih antara *mean recall* pada data latih dan recall pada data uji. Semakin kecil selisihnya, semakin stabil model.
+
+
+### Model Terbaik: Logistic Regression
+
+Model Logistic Regression dipilih sebagai model final karena:
+- Memiliki nilai **recall tertinggi di data uji (0.8220)**
+- Konsisten selama proses pelatihan
+- Lebih sederhana dan mudah diinterpretasikan
+- Cocok digunakan dalam sistem deteksi dini dropout
+
+---
+
+### Deployment dengan streamlit
+Langkah-langkah menggunakan sistem machine learning berbasis XGBoost adalah sebagai berikut.
+
+Membuka link: https://m7e6p7ufh6ul4wt8sepkbe.streamlit.app/
+Mengisi data yang dibutuhkan. Perlu diperhatikan bahwa pengguna harus menekan enter agar dapat menyimpan data numerik.
+Hasil prediksi akan tampil di bagian bawah.
+
+## Kesimpulan
+Berdasarkan analisis dan pemodelan yang dilakukan, ditemukan beberapa insight penting:
+- Mahasiswa yang tidak membayar tepat waktu, tidak menerima beasiswa, dan memiliki tunggakan cenderung memiliki kemungkinan lebih tinggi untuk dropout.
+- Jurusan tertentu seperti Veterinary Nursing dan Social Service memiliki dropout rate yang signifikan.
+- Mahasiswa laki-laki menunjukkan angka dropout yang lebih tinggi dari perempuan, yang bisa menjadi perhatian lebih lanjut dari pihak institusi.
+  
+## Rekomendasi Action Items
+Berikut beberapa rekomendasi yang dapat diambil oleh Jaya Jaya Institut:
+- Targeted Counseling: Fokuskan pendampingan akademik pada mahasiswa dengan kombinasi faktor risiko (utang, tanpa beasiswa, tidak tepat waktu membayar).
+- Pemberian Beasiswa Adaptif: Perluas cakupan beasiswa untuk mahasiswa dari jurusan atau latar belakang rentan.
+- Monitoring Berkala via Dashboard: Gunakan dashboard secara rutin untuk melihat tren dropout dan intervensi dini.
+- Evaluasi Jurusan Berisiko: Audit internal terhadap jurusan dengan tingkat dropout tinggi untuk mengevaluasi kurikulum, beban studi, atau dukungan dosen.
+- Peningkatan Sistem Informasi Akademik: Integrasi sistem prediksi dropout ke dalam sistem akademik yang sudah ada agar dapat langsung memberikan alert.
+
+## Referensi
+- 
+
+
