@@ -139,10 +139,12 @@ Model Logistic Regression dipilih sebagai model final karena:
 
 ### Deployment dengan streamlit
 Langkah-langkah menggunakan sistem machine learning berbasis XGBoost adalah sebagai berikut.
+- Membuka link: https://m7e6p7ufh6ul4wt8sepkbe.streamlit.app/
+- Mengisi data yang dibutuhkan. Perlu diperhatikan bahwa pengguna harus menekan enter agar dapat menyimpan data numerik.
+- Hasil prediksi akan tampil di bagian bawah.
+![Cuplikan layar 2025-05-18 143048](https://github.com/user-attachments/assets/a133a454-b1b6-4e60-96a1-ef685840e406)
 
-Membuka link: https://m7e6p7ufh6ul4wt8sepkbe.streamlit.app/
-Mengisi data yang dibutuhkan. Perlu diperhatikan bahwa pengguna harus menekan enter agar dapat menyimpan data numerik.
-Hasil prediksi akan tampil di bagian bawah.
+
 
 ## Kesimpulan
 Berdasarkan analisis dan pemodelan yang dilakukan, ditemukan beberapa insight penting:
