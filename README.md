@@ -122,30 +122,54 @@ Dashboard ini menyajikan ringkasan komprehensif mengenai demografi mahasiswa, la
 
 ### Status Pembayaran Uang Kuliah dan Dropout (Count of Student by Tuition Payment Status and Dropout Status)
 
-| Pembayaran Uang Kuliah | Dropout | Tidak Dropout |
-|------------------------|---------|---------------|
-| Ya (Tepat Waktu)       | Tinggi  | Sangat Tinggi |
-| Tidak (Menunggak)      | Sedang  | Sangat Rendah |
+    | Pembayaran Uang Kuliah | Dropout | Tidak Dropout |
+    |------------------------|---------|---------------|
+    | Ya (Tepat Waktu)       | Tinggi  | Sangat Tinggi |
+    | Tidak (Menunggak)      | Sedang  | Sangat Rendah |
 
 - Mahasiswa **yang menunggak pembayaran** cenderung lebih besar kemungkinannya untuk dropout.
 - Mahasiswa **yang membayar tepat waktu** mayoritas **tidak dropout**.
 
 ### Distribusi Beasiswa Berdasarkan Status Dropout (Scholarshp Distribution by Dropout Status)
 
-| Penerima Beasiswa | Dropout | Tidak Dropout |
-|-------------------|---------|---------------|
-| Ya                | Rendah  | Sedang        |
-| Tidak             | Tinggi  | Tinggi        |
+    | Penerima Beasiswa | Dropout | Tidak Dropout |
+    |-------------------|---------|---------------|
+    | Ya                | Rendah  | Sedang        |
+    | Tidak             | Tinggi  | Tinggi        |
 
 - Mahasiswa **tanpa beasiswa** memiliki tingkat dropout yang lebih tinggi.
 - Mahasiswa **dengan beasiswa** cenderung bertahan dalam studi.
 
 ### Dampak Status Hutang terhadap Dropout (Impact of Debt Status on Student Dropout)
 
-| Status Hutang | Dropout | Tidak Dropout |
-|---------------|---------|---------------|
-| Ya            | Sedang  | Rendah        |
-| Tidak         | Tinggi  | Sangat Tinggi |
+    | Status Hutang | Dropout | Tidak Dropout |
+    |---------------|---------|---------------|
+    | Ya            | Sedang  | Rendah        |
+    | Tidak         | Tinggi  | Sangat Tinggi |
 
 - Mahasiswa **tanpa hutang** cenderung bertahan dan menyelesaikan studi.
 - Mahasiswa **dengan hutang** memiliki kecenderungan dropout lebih tinggi.
+
+- 
+Komponen Dashboard
+- Rata-rata Nilai Masuk (Average of Admission Grade) : Rata-rata nilai masuk seluruh siswa adalah 126,7.
+- Rata-rata Usia Saat Diterima (Average Age at Enrollment) : Rata-rata usia siswa saat diterima adalah sekitar 23 tahun.
+- Jenis Kelamin (Gender) dari total 4.424 siswa, distribusinya adalah:
+  > Laki-laki: 35,17% → sekitar 1.556 siswa
+  > Perempuan: 64,83% → sekitar 2.868 siswa
+- Penerima Beasiswa (Scholarship Holder) Dari total 4.424 siswa, distribusinya adalah:
+  > Penerima (Scholarship Holder(Yes)) : 24,84% → sekitar 1.099 siswa
+  > Bukan Penerima (Scholarship Holder(No)) : 75,16% sekitar → 3.325 siswa
+- Status Internasional (International), berdasarkan status kewarganegaraan:
+  > Siswa Internasional (2,49%) → sekitar 110 siswa
+  > Siswa Domestik (97,51%) → sekitar 4.314 siswa
+- Status Pernikahan (Marital Status) : Mayoritas siswa berstatus lajang (Single) sebanyak 3.919 siswa.
+- Program Studi (Course) : Program studi dengan jumlah siswa terbanyak adalah Keperawatan (Nursing) dengan total 766 siswa.
+- Status : Status mahasiswa saat ini
+  > Mahasiswa Tidak Dropout: 3.003 → 67,88%
+  > Mahasiswa Dropout: 1.421 → 32,12%
+- Distribusi Status siswa berdasarkann Program Studi (Distribution of Student Status By Course) : Program studi dengan dropout cukup tinggi (ditunjukkan dengan batang oranye dominan)
+  > Manajemen, Jurnalistik, Sosial, Veteriner
+  > Keperawatan (Nursing): Mayoritas tidak dropout (jumlah terbesar mahasiswa bertahan)
+- Count of Student by Tu
+
