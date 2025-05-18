@@ -61,6 +61,4 @@ streamlit run streamlit_app.py
 ## Dashboard Analitik - Tableau Public
 untuk link dashboard bisa diakses melalui
 
-link dashboard 1 : [link dashboard 11](https://public.tableau.com/views/JayaJayaMajuDicoding/Dashboard3?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-
-link dashboard 2 : [link dashboard 2](https://public.tableau.com/views/JayaJayaMajuDicoding2/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+link dashboard : [link dashboard1](https://public.tableau.com/views/Book3_17472601956340/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
