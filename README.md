@@ -157,6 +157,4 @@ Berikut beberapa rekomendasi yang dapat diambil oleh Jaya Jaya Institut:
 - Evaluasi Jurusan Berisiko: Audit internal terhadap jurusan dengan tingkat dropout tinggi untuk mengevaluasi kurikulum, beban studi, atau dukungan dosen.
 - Peningkatan Sistem Informasi Akademik: Integrasi sistem prediksi dropout ke dalam sistem akademik yang sudah ada agar dapat langsung memberikan alert.
 
-## Referensi
-
 
