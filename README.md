@@ -61,10 +61,9 @@ streamlit run streamlit_app.py
 ## Dashboard Analitik - Tableau Public
 untuk link dashboard bisa diakses melalui
 
-link dashboard : [link dashboard](https://public.tableau.com/views/Book3_17472601956340/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+link dashboard : [link dashboard](https://lookerstudio.google.com/reporting/65cd384a-58fa-47fa-80d0-37fbbfa16c3e)
 
-![Cuplikan layar 2025-05-18 124806](https://github.com/user-attachments/assets/0cc381a2-6334-4ac2-82a8-75eb86a015ad)
-![Cuplikan layar 2025-05-18 124816](https://github.com/user-attachments/assets/61ce5e0a-7d46-4d1b-a02e-1d9b7371ac61)
+<img width="992" height="920" alt="Student Dropout Analytics" src="https://github.com/user-attachments/assets/7eb7100a-8372-430d-84bb-d2948163b2e1" />
 
 ### Komponen Dashboard
 - Rata-rata Nilai Masuk (Average of Admission Grade) : Seluruh mahasiswa memiliki rata-rata nilai masuk sebesar 126,7.
